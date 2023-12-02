@@ -14,6 +14,21 @@ public class User {
 	}
 
 
+	public User(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+	
+	public User() {
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + "]";
+	}
 
 	public int getAge() {
 		return age;
